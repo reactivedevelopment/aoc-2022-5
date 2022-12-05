@@ -53,7 +53,6 @@ object Day {
     }
   }
 
-
   fun solution(): String {
     return stackedColumns.map(LinkedList<Char>::getFirst).joinToString("")
   }
